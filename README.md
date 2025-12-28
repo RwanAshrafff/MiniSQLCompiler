@@ -16,13 +16,15 @@ This project implements a compiler for a subset of SQL, featuring:
 
 ```
 MiniSQLCompiler/
-├── lexer.py           # Lexical analyzer - tokenizes SQL input
-├── parser.py          # Syntax parser - builds parse tree from tokens
-├── semantic.py        # Semantic analyzer - validates semantics and maintains symbol table
-├── gui.py             # Interactive GUI using Tkinter and Pygame
-├── app.py             # Main entry point
-├── input.sql          # Sample SQL input file
+   src/
+      ├── lexer.py           # Lexical analyzer - tokenizes SQL input
+      ├── parser.py          # Syntax parser - builds parse tree from tokens
+      ├── semantic.py        # Semantic analyzer - validates semantics and maintains symbol table
+      ├── gui.py             # Interactive GUI using Tkinter and Pygame
+      ├── app.py             # Main entry point
+      ├── input.sql          # Sample SQL input file
 └── README.md          # This file
+└── License          # MIT
 ```
 
 ## Features
